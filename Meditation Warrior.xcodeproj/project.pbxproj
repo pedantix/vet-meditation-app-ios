@@ -16,6 +16,8 @@
 		EF47927823D6036500FEE9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47927623D6036500FEE9D8 /* LaunchScreen.storyboard */; };
 		EF47928323D6036500FEE9D8 /* Meditation_WarriorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47928223D6036500FEE9D8 /* Meditation_WarriorTests.swift */; };
 		EF47928E23D6036600FEE9D8 /* Meditation_WarriorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47928D23D6036600FEE9D8 /* Meditation_WarriorUITests.swift */; };
+		EF47929C23D6077300FEE9D8 /* MeditationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47929B23D6077300FEE9D8 /* MeditationsView.swift */; };
+		EF47929F23D6085B00FEE9D8 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47929E23D6085B00FEE9D8 /* TrackerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EF47928923D6036500FEE9D8 /* Meditation WarriorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditation WarriorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF47928D23D6036600FEE9D8 /* Meditation_WarriorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_WarriorUITests.swift; sourceTree = "<group>"; };
 		EF47928F23D6036600FEE9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF47929B23D6077300FEE9D8 /* MeditationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsView.swift; sourceTree = "<group>"; };
+		EF47929E23D6085B00FEE9D8 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,9 @@
 		EF47926723D6036400FEE9D8 /* Meditation Warrior */ = {
 			isa = PBXGroup;
 			children = (
+				EF47929D23D607C100FEE9D8 /* Views */,
 				EF47926823D6036400FEE9D8 /* AppDelegate.swift */,
 				EF47926A23D6036400FEE9D8 /* SceneDelegate.swift */,
-				EF47926F23D6036400FEE9D8 /* ContentView.swift */,
 				EF47927123D6036500FEE9D8 /* Assets.xcassets */,
 				EF47927623D6036500FEE9D8 /* LaunchScreen.storyboard */,
 				EF47927923D6036500FEE9D8 /* Info.plist */,
@@ -137,6 +141,16 @@
 				EF47928F23D6036600FEE9D8 /* Info.plist */,
 			);
 			path = "Meditation WarriorUITests";
+			sourceTree = "<group>";
+		};
+		EF47929D23D607C100FEE9D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF47926F23D6036400FEE9D8 /* ContentView.swift */,
+				EF47929B23D6077300FEE9D8 /* MeditationsView.swift */,
+				EF47929E23D6085B00FEE9D8 /* TrackerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +288,8 @@
 				EF47926923D6036400FEE9D8 /* AppDelegate.swift in Sources */,
 				EF47927023D6036400FEE9D8 /* ContentView.swift in Sources */,
 				EF47926B23D6036400FEE9D8 /* SceneDelegate.swift in Sources */,
+				EF47929C23D6077300FEE9D8 /* MeditationsView.swift in Sources */,
+				EF47929F23D6085B00FEE9D8 /* TrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
