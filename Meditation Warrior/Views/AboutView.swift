@@ -1,5 +1,5 @@
 //
-//  TrackerView.swift
+//  AboutView.swift
 //  Meditation Warrior
 //
 //  Created by Shaun Hubbard on 1/20/20.
@@ -8,15 +8,14 @@
 
 import SwiftUI
 
-struct TrackerView: View {
+struct AboutView: View {
     var body: some View {
-      Text("Tracker").font(.title)
-      // TODO: What is being tracked
+      Text("About").font(.title)
     }
 }
 
-struct TrackerView_Previews: PreviewProvider {
+struct AboutView_Previews: PreviewProvider {
     static var previews: some View {
-        TrackerView()
+        AboutView()
     }
 }

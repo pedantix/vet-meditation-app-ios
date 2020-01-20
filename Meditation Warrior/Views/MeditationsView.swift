@@ -10,7 +10,16 @@ import SwiftUI
 
 struct MeditationsView: View {
     var body: some View {
-      Text("Meditations View").font(.title)
+      VStack {
+        Text("Meditations View").font(.title)
+        List {
+          Text("Meditation One")
+          Text("Meditation Two")
+          Text("Meditation Three")
+          // TODO: Discuss w/ David what is a meditation so as to arrive at a domain model
+          
+        }
+      }
     }
 }
 

@@ -25,28 +25,26 @@ struct ContentView: View {
                 .tabItem {
                     VStack {
                         Image("second")
-                        Text("Second")
+                        Text("Tracker")
                     }
                 }
                 .tag(1)
-          Text("Third View")
-          .font(.title)
+          NetworkingView()
           .tabItem {
               VStack {
-                  Image("second")
-                  Text("Second")
+                  Image("first")
+                  Text("Networking")
               }
           }
           .tag(2)
-          Text("Third View")
-          .font(.title)
+          AboutView()
           .tabItem {
               VStack {
                   Image("second")
-                  Text("Second")
+                  Text("About")
               }
           }
-          .tag(4)
+          .tag(3)
         }
     }
 }
