@@ -1,1 +1,5 @@
+2020-01-27
+First batch of icons includes all the planned internal icons for the app MVP.
+
+Idea is to give Shaun and I freedom to maneuver as we place elements of the app together. 
 
